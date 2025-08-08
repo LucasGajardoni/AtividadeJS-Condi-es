@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero1 = Number(prompt("Digite o primeiro numero"));
+        var numero2 = Number(prompt("Digite o segundo numero"));
+        var numero3 = Number(prompt("Digite o terceiro numero"));
+
+        if(numero1 > numero2 && numero1 > numero3){
+            alert("o mairo numero é " + numero1);
+        }
+        else if(numero2 > numero1 && numero2 > numero3){
+            alert("o mairo numero é " + numero2);
+        }
+        else if(numero3 > numero1 && numero3 > numero2){
+            alert("o mairo numero é " + numero3);
+        }
+        else{
+            alert("iguais");
+        }
+    </script>
+</body>
+</html>
